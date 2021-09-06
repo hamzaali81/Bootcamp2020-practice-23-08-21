@@ -1,0 +1,5 @@
+react-leaflet.js ==> map
+material UI
+chart.js chart
+covid-19-api
+https://corona.lmao.ninja/
