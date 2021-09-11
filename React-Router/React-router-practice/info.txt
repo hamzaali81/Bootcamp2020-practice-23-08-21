@@ -1,0 +1,10 @@
+Animations website
+1.https://uber.github.io/react-vis/examples/showcases/plots
+2.https://styled-components.com/docs
+3.https://alain.xyz/404
+4.https://www.react-reveal.com/
+5.https://react-spring.io/basics
+6.https://www.framer.com/motion/
+
+
+// React Router === Docs Must be Reading
