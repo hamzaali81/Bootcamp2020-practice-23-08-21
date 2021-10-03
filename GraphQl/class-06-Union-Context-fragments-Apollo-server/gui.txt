@@ -1,0 +1,101 @@
+# query GetAllUsers {
+#   users {
+#     id
+#     age
+#     name
+#     username
+#     nationality
+#     friends {
+#        id
+#        age
+#       }
+#   }
+# }
+
+# query User($userId: ID!){
+#   user(id: $userId) {
+#     name
+#     age
+#     favoriteMovies {
+#       name
+#       isInTheaters
+#       id
+#     }
+    
+#   }
+
+# }
+
+query getAllMovies {
+  movies {
+    id
+    name
+    isInTheaters
+  }
+}
+
+# query Movie($movieName: String!){
+#   movie(name: $movieName) {
+#     name
+    
+#     id
+#   }
+# }
+
+
+# mutation CreateUser($createUserInput: CreateUserInput!){
+#   createUser(input: $createUserInput) {
+#     name
+#     username
+#     age
+#     nationality
+#   }
+# }
+
+# mutation UpdateUsername($updateUsernameInput: UpdateUsernameInput!){
+#   updateUsername(input: $updateUsernameInput) {
+#     id
+#     username
+#   }
+# }
+
+
+# mutation DeleteUser($deleteUserId: ID!){
+#   deleteUser(id: $deleteUserId) {
+#     id
+#   }
+# } 
+
+query GetAllUsers {
+  users {
+    id
+    age
+    name
+    username
+    nationality
+    friends {
+       id
+       age
+      }
+  }
+}
+
+// Variable pass
+
+{
+  "deleteUserId": "4"
+}
+
+// fragments
+
+// fragment
+# query GetAllUsers {
+#   users {
+#     ...GetNameAndTag
+#   }
+# }
+
+# fragment GetNameAndTag on User {
+#   name
+#   age
+# }
