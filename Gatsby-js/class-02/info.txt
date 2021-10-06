@@ -1,0 +1,4 @@
+gatsby-source-filesystem
+
+// gatsby-transformer-sharp
+https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-image/#common-fragments-with-gatsby-transformer-sharp
